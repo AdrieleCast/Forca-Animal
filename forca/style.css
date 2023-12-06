@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(animações/Fundo\ Forca.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#hangman-container {
+    text-align: center;
+}
+
+#word-container {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#incorrect-letters {
+    margin: 10px 0;
+}
+
+#hangman-drawing {
+    height: 300px;
+    margin-left: -400px;
+    background: url('imagens/hangman.png') no-repeat center;
+    background-size: contain;
+}
+
+input {
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
